@@ -419,7 +419,7 @@ ALocalFogVolume* UDatasetCaptureManager::CreateTempFogVolume(
         m_pWorld->SpawnActor<ALocalFogVolume>(Location, FRotator::ZeroRotator, Params);
     if (!FogActor) return nullptr;
 
-    // convert cm -> m (could also jsut use meters)
+    // convert cm -> m
     constexpr float UnitsPerMetre = 100.f;
     FogActor->SetActorScale3D(UniformScale / UnitsPerMetre);
 
