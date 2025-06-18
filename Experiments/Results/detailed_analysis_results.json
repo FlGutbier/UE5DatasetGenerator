@@ -1,0 +1,2014 @@
+{
+  "baseline_performance": {
+    "resnet50": {
+      "overall_accuracy": 0.36607142857142855,
+      "valid_accuracy": 0.9761904761904762,
+      "valid_prediction_rate": 0.375,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.28125,
+          "n_samples": 32,
+          "valid_predictions": 9
+        },
+        "1": {
+          "accuracy": 0.1875,
+          "n_samples": 32,
+          "valid_predictions": 8
+        },
+        "2": {
+          "accuracy": 0.625,
+          "n_samples": 32,
+          "valid_predictions": 20
+        },
+        "3": {
+          "accuracy": 0.3125,
+          "n_samples": 32,
+          "valid_predictions": 10
+        },
+        "4": {
+          "accuracy": 0.28125,
+          "n_samples": 32,
+          "valid_predictions": 9
+        },
+        "5": {
+          "accuracy": 0.40625,
+          "n_samples": 32,
+          "valid_predictions": 13
+        },
+        "6": {
+          "accuracy": 0.46875,
+          "n_samples": 32,
+          "valid_predictions": 15
+        }
+      }
+    },
+    "resnet101": {
+      "overall_accuracy": 0.5,
+      "valid_accuracy": 1.0,
+      "valid_prediction_rate": 0.5,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.75,
+          "n_samples": 32,
+          "valid_predictions": 24
+        },
+        "1": {
+          "accuracy": 0.25,
+          "n_samples": 32,
+          "valid_predictions": 8
+        },
+        "2": {
+          "accuracy": 0.59375,
+          "n_samples": 32,
+          "valid_predictions": 19
+        },
+        "3": {
+          "accuracy": 0.4375,
+          "n_samples": 32,
+          "valid_predictions": 14
+        },
+        "4": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 16
+        },
+        "5": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 16
+        },
+        "6": {
+          "accuracy": 0.46875,
+          "n_samples": 32,
+          "valid_predictions": 15
+        }
+      }
+    },
+    "densenet201.tv_in1k": {
+      "overall_accuracy": 0.29017857142857145,
+      "valid_accuracy": 1.0,
+      "valid_prediction_rate": 0.29017857142857145,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.25,
+          "n_samples": 32,
+          "valid_predictions": 8
+        },
+        "1": {
+          "accuracy": 0.125,
+          "n_samples": 32,
+          "valid_predictions": 4
+        },
+        "2": {
+          "accuracy": 0.375,
+          "n_samples": 32,
+          "valid_predictions": 12
+        },
+        "3": {
+          "accuracy": 0.21875,
+          "n_samples": 32,
+          "valid_predictions": 7
+        },
+        "4": {
+          "accuracy": 0.40625,
+          "n_samples": 32,
+          "valid_predictions": 13
+        },
+        "5": {
+          "accuracy": 0.3125,
+          "n_samples": 32,
+          "valid_predictions": 10
+        },
+        "6": {
+          "accuracy": 0.34375,
+          "n_samples": 32,
+          "valid_predictions": 11
+        }
+      }
+    },
+    "convnext_base.fb_in1k": {
+      "overall_accuracy": 0.5669642857142857,
+      "valid_accuracy": 0.9844961240310077,
+      "valid_prediction_rate": 0.5758928571428571,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.8125,
+          "n_samples": 32,
+          "valid_predictions": 26
+        },
+        "1": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 16
+        },
+        "2": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 16
+        },
+        "3": {
+          "accuracy": 0.53125,
+          "n_samples": 32,
+          "valid_predictions": 17
+        },
+        "4": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 16
+        },
+        "5": {
+          "accuracy": 0.5,
+          "n_samples": 32,
+          "valid_predictions": 17
+        },
+        "6": {
+          "accuracy": 0.625,
+          "n_samples": 32,
+          "valid_predictions": 21
+        }
+      }
+    },
+    "convnext_large_mlp": {
+      "overall_accuracy": 0.7053571428571429,
+      "valid_accuracy": 1.0,
+      "valid_prediction_rate": 0.7053571428571429,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.96875,
+          "n_samples": 32,
+          "valid_predictions": 31
+        },
+        "1": {
+          "accuracy": 0.59375,
+          "n_samples": 32,
+          "valid_predictions": 19
+        },
+        "2": {
+          "accuracy": 0.4375,
+          "n_samples": 32,
+          "valid_predictions": 14
+        },
+        "3": {
+          "accuracy": 0.53125,
+          "n_samples": 32,
+          "valid_predictions": 17
+        },
+        "4": {
+          "accuracy": 0.84375,
+          "n_samples": 32,
+          "valid_predictions": 27
+        },
+        "5": {
+          "accuracy": 0.9375,
+          "n_samples": 32,
+          "valid_predictions": 30
+        },
+        "6": {
+          "accuracy": 0.625,
+          "n_samples": 32,
+          "valid_predictions": 20
+        }
+      }
+    },
+    "vit_base_patch16_224": {
+      "overall_accuracy": 0.45535714285714285,
+      "valid_accuracy": 1.0,
+      "valid_prediction_rate": 0.45535714285714285,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.59375,
+          "n_samples": 32,
+          "valid_predictions": 19
+        },
+        "1": {
+          "accuracy": 0.4375,
+          "n_samples": 32,
+          "valid_predictions": 14
+        },
+        "2": {
+          "accuracy": 0.3125,
+          "n_samples": 32,
+          "valid_predictions": 10
+        },
+        "3": {
+          "accuracy": 0.3125,
+          "n_samples": 32,
+          "valid_predictions": 10
+        },
+        "4": {
+          "accuracy": 0.59375,
+          "n_samples": 32,
+          "valid_predictions": 19
+        },
+        "5": {
+          "accuracy": 0.375,
+          "n_samples": 32,
+          "valid_predictions": 12
+        },
+        "6": {
+          "accuracy": 0.5625,
+          "n_samples": 32,
+          "valid_predictions": 18
+        }
+      }
+    },
+    "vit_large_patch16_224": {
+      "overall_accuracy": 0.6339285714285714,
+      "valid_accuracy": 0.993006993006993,
+      "valid_prediction_rate": 0.6383928571428571,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.90625,
+          "n_samples": 32,
+          "valid_predictions": 29
+        },
+        "1": {
+          "accuracy": 0.46875,
+          "n_samples": 32,
+          "valid_predictions": 15
+        },
+        "2": {
+          "accuracy": 0.5625,
+          "n_samples": 32,
+          "valid_predictions": 18
+        },
+        "3": {
+          "accuracy": 0.40625,
+          "n_samples": 32,
+          "valid_predictions": 14
+        },
+        "4": {
+          "accuracy": 0.6875,
+          "n_samples": 32,
+          "valid_predictions": 22
+        },
+        "5": {
+          "accuracy": 0.71875,
+          "n_samples": 32,
+          "valid_predictions": 23
+        },
+        "6": {
+          "accuracy": 0.6875,
+          "n_samples": 32,
+          "valid_predictions": 22
+        }
+      }
+    },
+    "swin_base_patch4_window7_224": {
+      "overall_accuracy": 0.5714285714285714,
+      "valid_accuracy": 1.0,
+      "valid_prediction_rate": 0.5714285714285714,
+      "n_samples": 224,
+      "class_accuracies": {
+        "0": {
+          "accuracy": 0.90625,
+          "n_samples": 32,
+          "valid_predictions": 29
+        },
+        "1": {
+          "accuracy": 0.625,
+          "n_samples": 32,
+          "valid_predictions": 20
+        },
+        "2": {
+          "accuracy": 0.4375,
+          "n_samples": 32,
+          "valid_predictions": 14
+        },
+        "3": {
+          "accuracy": 0.3125,
+          "n_samples": 32,
+          "valid_predictions": 10
+        },
+        "4": {
+          "accuracy": 0.46875,
+          "n_samples": 32,
+          "valid_predictions": 15
+        },
+        "5": {
+          "accuracy": 0.65625,
+          "n_samples": 32,
+          "valid_predictions": 21
+        },
+        "6": {
+          "accuracy": 0.59375,
+          "n_samples": 32,
+          "valid_predictions": 19
+        }
+      }
+    }
+  },
+  "variable_impact": {
+    "resnet50": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.21595982142857142,
+          "valid_accuracy": 0.9791271347248577,
+          "valid_prediction_rate": 0.22056361607142858,
+          "accuracy_impact": -0.047991071428571425,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.06368582589285714,
+          "valid_accuracy": 0.9093625498007968,
+          "valid_prediction_rate": 0.07003348214285714,
+          "accuracy_impact": -0.2002650669642857,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.14732142857142858,
+          "valid_accuracy": 0.9530685920577617,
+          "valid_prediction_rate": 0.15457589285714285,
+          "accuracy_impact": -0.11662946428571427,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.13204520089285715,
+          "valid_accuracy": 0.9692780337941628,
+          "valid_prediction_rate": 0.13623046875,
+          "accuracy_impact": -0.1319056919642857,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.09514508928571429,
+          "valid_accuracy": 0.9694385216773277,
+          "valid_prediction_rate": 0.09814453125,
+          "accuracy_impact": -0.16880580357142855,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.12960379464285715,
+          "valid_accuracy": 0.9789251844046365,
+          "valid_prediction_rate": 0.13239397321428573,
+          "accuracy_impact": -0.1343470982142857,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.14950706845238096,
+          "valid_accuracy": 0.9674992476677701,
+          "valid_prediction_rate": 0.15452938988095238,
+          "accuracy_impact": -0.11444382440476189,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.13871837797619047,
+          "valid_accuracy": 0.9700813008130081,
+          "valid_prediction_rate": 0.14299665178571427,
+          "accuracy_impact": -0.12523251488095238,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.12067522321428571,
+          "valid_accuracy": 0.9672008945210585,
+          "valid_prediction_rate": 0.12476748511904762,
+          "accuracy_impact": -0.14327566964285715,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.11360677083333333,
+          "valid_accuracy": 0.9546697928878468,
+          "valid_prediction_rate": 0.11900111607142858,
+          "accuracy_impact": -0.15034412202380953,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.11904761904761904,
+          "valid_accuracy": 0.9593404534382612,
+          "valid_prediction_rate": 0.12409319196428571,
+          "accuracy_impact": -0.1449032738095238,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.1422061011904762,
+          "valid_accuracy": 0.9703315881326352,
+          "valid_prediction_rate": 0.14655412946428573,
+          "accuracy_impact": -0.12174479166666666,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.13764880952380953,
+          "valid_accuracy": 0.9517684887459807,
+          "valid_prediction_rate": 0.14462425595238096,
+          "accuracy_impact": -0.12630208333333331,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.11765252976190477,
+          "valid_accuracy": 0.9612462006079028,
+          "valid_prediction_rate": 0.12239583333333333,
+          "accuracy_impact": -0.14629836309523808,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.20052083333333334,
+          "valid_accuracy": 0.9768917082011781,
+          "valid_prediction_rate": 0.20526413690476192,
+          "accuracy_impact": -0.0634300595238095,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.1656436011904762,
+          "valid_accuracy": 0.9796479647964796,
+          "valid_prediction_rate": 0.16908482142857142,
+          "accuracy_impact": -0.09830729166666666,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.10491071428571429,
+          "valid_accuracy": 0.9707401032702238,
+          "valid_prediction_rate": 0.10807291666666667,
+          "accuracy_impact": -0.15904017857142855,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.11067708333333333,
+          "valid_accuracy": 0.9651257096512571,
+          "valid_prediction_rate": 0.11467633928571429,
+          "accuracy_impact": -0.15327380952380953,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.10630580357142858,
+          "valid_accuracy": 0.9353518821603928,
+          "valid_prediction_rate": 0.11365327380952381,
+          "accuracy_impact": -0.15764508928571427,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.10165550595238096,
+          "valid_accuracy": 0.9698314108251996,
+          "valid_prediction_rate": 0.10481770833333333,
+          "accuracy_impact": -0.1622953869047619,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.1285342261904762,
+          "valid_accuracy": 0.9537612146307799,
+          "valid_prediction_rate": 0.134765625,
+          "accuracy_impact": -0.13541666666666666,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.12639508928571427,
+          "valid_accuracy": 0.9604240282685512,
+          "valid_prediction_rate": 0.13160342261904762,
+          "accuracy_impact": -0.13755580357142858,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.09756324404761904,
+          "valid_accuracy": 0.9703977798334875,
+          "valid_prediction_rate": 0.10053943452380952,
+          "accuracy_impact": -0.1663876488095238,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.14146205357142858,
+          "valid_accuracy": 0.9819238218205294,
+          "valid_prediction_rate": 0.14406622023809523,
+          "accuracy_impact": -0.12248883928571427,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.13690476190476192,
+          "valid_accuracy": 0.961463096015676,
+          "valid_prediction_rate": 0.14239211309523808,
+          "accuracy_impact": -0.12704613095238093,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.18061755952380953,
+          "valid_accuracy": 0.9773527931555108,
+          "valid_prediction_rate": 0.18480282738095238,
+          "accuracy_impact": -0.08333333333333331,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.12881324404761904,
+          "valid_accuracy": 0.9705676243868255,
+          "valid_prediction_rate": 0.13271949404761904,
+          "accuracy_impact": -0.1351376488095238,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.10472470238095238,
+          "valid_accuracy": 0.9375520399666945,
+          "valid_prediction_rate": 0.11170014880952381,
+          "accuracy_impact": -0.15922619047619047,
+          "n_samples": 10752
+        }
+      }
+    },
+    "resnet101": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.35693359375,
+          "valid_accuracy": 0.9682119205298013,
+          "valid_prediction_rate": 0.36865234375,
+          "accuracy_impact": -0.04708426339285715,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.12130301339285714,
+          "valid_accuracy": 0.8047200370198982,
+          "valid_prediction_rate": 0.15073939732142858,
+          "accuracy_impact": -0.28271484375,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.25669642857142855,
+          "valid_accuracy": 0.9585829643136233,
+          "valid_prediction_rate": 0.26778738839285715,
+          "accuracy_impact": -0.1473214285714286,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.22760881696428573,
+          "valid_accuracy": 0.9452491309385863,
+          "valid_prediction_rate": 0.24079241071428573,
+          "accuracy_impact": -0.17640904017857142,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.18073381696428573,
+          "valid_accuracy": 0.9671519223590892,
+          "valid_prediction_rate": 0.18687220982142858,
+          "accuracy_impact": -0.22328404017857142,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.23883928571428573,
+          "valid_accuracy": 0.9691480328332862,
+          "valid_prediction_rate": 0.24644252232142858,
+          "accuracy_impact": -0.16517857142857142,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.24293154761904762,
+          "valid_accuracy": 0.9414308884483691,
+          "valid_prediction_rate": 0.2580450148809524,
+          "accuracy_impact": -0.16108630952380953,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.2447451636904762,
+          "valid_accuracy": 0.9413342872473618,
+          "valid_prediction_rate": 0.2599981398809524,
+          "accuracy_impact": -0.15927269345238096,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.21442522321428573,
+          "valid_accuracy": 0.9444899631298648,
+          "valid_prediction_rate": 0.22702752976190477,
+          "accuracy_impact": -0.18959263392857142,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.21930803571428573,
+          "valid_accuracy": 0.9571747513700021,
+          "valid_prediction_rate": 0.2291201636904762,
+          "accuracy_impact": -0.18470982142857142,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.20819382440476192,
+          "valid_accuracy": 0.940743853750788,
+          "valid_prediction_rate": 0.2213076636904762,
+          "accuracy_impact": -0.19582403273809523,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.2525111607142857,
+          "valid_accuracy": 0.9500481147756101,
+          "valid_prediction_rate": 0.2657877604166667,
+          "accuracy_impact": -0.15150669642857145,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.19559151785714285,
+          "valid_accuracy": 0.9392585975882091,
+          "valid_prediction_rate": 0.20824032738095238,
+          "accuracy_impact": -0.2084263392857143,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.19605654761904762,
+          "valid_accuracy": 0.9608021877848678,
+          "valid_prediction_rate": 0.20405505952380953,
+          "accuracy_impact": -0.20796130952380953,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.3572358630952381,
+          "valid_accuracy": 0.9724050632911393,
+          "valid_prediction_rate": 0.3673735119047619,
+          "accuracy_impact": -0.04678199404761907,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.28552827380952384,
+          "valid_accuracy": 0.9608763693270735,
+          "valid_prediction_rate": 0.29715401785714285,
+          "accuracy_impact": -0.11848958333333331,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.21186755952380953,
+          "valid_accuracy": 0.9159630076397266,
+          "valid_prediction_rate": 0.23130580357142858,
+          "accuracy_impact": -0.19215029761904762,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.21493675595238096,
+          "valid_accuracy": 0.9401952807160293,
+          "valid_prediction_rate": 0.22860863095238096,
+          "accuracy_impact": -0.1890811011904762,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.1832217261904762,
+          "valid_accuracy": 0.9257518796992481,
+          "valid_prediction_rate": 0.19791666666666666,
+          "accuracy_impact": -0.22079613095238096,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.19838169642857142,
+          "valid_accuracy": 0.9281984334203656,
+          "valid_prediction_rate": 0.21372767857142858,
+          "accuracy_impact": -0.20563616071428573,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.21140252976190477,
+          "valid_accuracy": 0.9330870279146142,
+          "valid_prediction_rate": 0.2265625,
+          "accuracy_impact": -0.19261532738095238,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.2222842261904762,
+          "valid_accuracy": 0.9450375642546461,
+          "valid_prediction_rate": 0.23521205357142858,
+          "accuracy_impact": -0.18173363095238096,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.17643229166666666,
+          "valid_accuracy": 0.9590495449949444,
+          "valid_prediction_rate": 0.1839657738095238,
+          "accuracy_impact": -0.2275855654761905,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.2576264880952381,
+          "valid_accuracy": 0.9794908062234795,
+          "valid_prediction_rate": 0.2630208333333333,
+          "accuracy_impact": -0.14639136904761907,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.24404761904761904,
+          "valid_accuracy": 0.9242691088411412,
+          "valid_prediction_rate": 0.26404389880952384,
+          "accuracy_impact": -0.1599702380952381,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.28311011904761907,
+          "valid_accuracy": 0.9533354212339492,
+          "valid_prediction_rate": 0.29696800595238093,
+          "accuracy_impact": -0.12090773809523808,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.21549479166666666,
+          "valid_accuracy": 0.9411047928513404,
+          "valid_prediction_rate": 0.22898065476190477,
+          "accuracy_impact": -0.1885230654761905,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.232421875,
+          "valid_accuracy": 0.9310730253353204,
+          "valid_prediction_rate": 0.2496279761904762,
+          "accuracy_impact": -0.17159598214285715,
+          "n_samples": 10752
+        }
+      }
+    },
+    "densenet201.tv_in1k": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.17222377232142858,
+          "valid_accuracy": 0.9603267211201867,
+          "valid_prediction_rate": 0.17933872767857142,
+          "accuracy_impact": -0.017508370535714274,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.06828962053571429,
+          "valid_accuracy": 0.9314938154138915,
+          "valid_prediction_rate": 0.07331194196428571,
+          "accuracy_impact": -0.12144252232142856,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.14460100446428573,
+          "valid_accuracy": 0.94141689373297,
+          "valid_prediction_rate": 0.15359933035714285,
+          "accuracy_impact": -0.04513113839285712,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.12158203125,
+          "valid_accuracy": 0.9619205298013245,
+          "valid_prediction_rate": 0.12639508928571427,
+          "accuracy_impact": -0.06815011160714285,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.09674944196428571,
+          "valid_accuracy": 0.9228210246174318,
+          "valid_prediction_rate": 0.10484095982142858,
+          "accuracy_impact": -0.09298270089285714,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.12653459821428573,
+          "valid_accuracy": 0.9684997330485852,
+          "valid_prediction_rate": 0.13065011160714285,
+          "accuracy_impact": -0.06319754464285712,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.1392764136904762,
+          "valid_accuracy": 0.9550382653061225,
+          "valid_prediction_rate": 0.14583333333333334,
+          "accuracy_impact": -0.05045572916666666,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.12406994047619048,
+          "valid_accuracy": 0.942090395480226,
+          "valid_prediction_rate": 0.13169642857142858,
+          "accuracy_impact": -0.06566220238095237,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.11160714285714286,
+          "valid_accuracy": 0.9415457041977247,
+          "valid_prediction_rate": 0.11853608630952381,
+          "accuracy_impact": -0.07812499999999999,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.11170014880952381,
+          "valid_accuracy": 0.9627254509018036,
+          "valid_prediction_rate": 0.1160249255952381,
+          "accuracy_impact": -0.07803199404761904,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.09830729166666667,
+          "valid_accuracy": 0.9484073575594437,
+          "valid_prediction_rate": 0.10365513392857142,
+          "accuracy_impact": -0.09142485119047618,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.14501953125,
+          "valid_accuracy": 0.9516325907842539,
+          "valid_prediction_rate": 0.15239025297619047,
+          "accuracy_impact": -0.04471261160714285,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.12899925595238096,
+          "valid_accuracy": 0.9585348997926745,
+          "valid_prediction_rate": 0.13457961309523808,
+          "accuracy_impact": -0.06073288690476189,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.1343936011904762,
+          "valid_accuracy": 0.9582228116710876,
+          "valid_prediction_rate": 0.1402529761904762,
+          "accuracy_impact": -0.05533854166666666,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.19893973214285715,
+          "valid_accuracy": 0.9762665449566408,
+          "valid_prediction_rate": 0.20377604166666666,
+          "accuracy_impact": 0.009207589285714302,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.17522321428571427,
+          "valid_accuracy": 0.9602446483180428,
+          "valid_prediction_rate": 0.18247767857142858,
+          "accuracy_impact": -0.014508928571428575,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.07952008928571429,
+          "valid_accuracy": 0.9028511087645196,
+          "valid_prediction_rate": 0.0880766369047619,
+          "accuracy_impact": -0.11021205357142856,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.08947172619047619,
+          "valid_accuracy": 0.9232245681381958,
+          "valid_prediction_rate": 0.09691220238095238,
+          "accuracy_impact": -0.10026041666666666,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.08268229166666667,
+          "valid_accuracy": 0.9631635969664138,
+          "valid_prediction_rate": 0.08584449404761904,
+          "accuracy_impact": -0.10704985119047618,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.08407738095238096,
+          "valid_accuracy": 0.9112903225806451,
+          "valid_prediction_rate": 0.09226190476190477,
+          "accuracy_impact": -0.10565476190476189,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.10416666666666667,
+          "valid_accuracy": 0.9180327868852459,
+          "valid_prediction_rate": 0.1134672619047619,
+          "accuracy_impact": -0.08556547619047618,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.10277157738095238,
+          "valid_accuracy": 0.9380305602716469,
+          "valid_prediction_rate": 0.1095610119047619,
+          "accuracy_impact": -0.08696056547619047,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.10026041666666667,
+          "valid_accuracy": 0.9539823008849557,
+          "valid_prediction_rate": 0.10509672619047619,
+          "accuracy_impact": -0.08947172619047618,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.10146949404761904,
+          "valid_accuracy": 0.9732381801962533,
+          "valid_prediction_rate": 0.10425967261904762,
+          "accuracy_impact": -0.08826264880952381,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.15718005952380953,
+          "valid_accuracy": 0.9723820483314154,
+          "valid_prediction_rate": 0.16164434523809523,
+          "accuracy_impact": -0.032552083333333315,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.16043526785714285,
+          "valid_accuracy": 0.9674705552439709,
+          "valid_prediction_rate": 0.16582961309523808,
+          "accuracy_impact": -0.029296875,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.13271949404761904,
+          "valid_accuracy": 0.955793703951775,
+          "valid_prediction_rate": 0.13885788690476192,
+          "accuracy_impact": -0.05701264880952381,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.11430431547619048,
+          "valid_accuracy": 0.911045218680504,
+          "valid_prediction_rate": 0.12546502976190477,
+          "accuracy_impact": -0.07542782738095237,
+          "n_samples": 10752
+        }
+      }
+    },
+    "convnext_base.fb_in1k": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.359375,
+          "valid_accuracy": 0.9800266311584553,
+          "valid_prediction_rate": 0.36669921875,
+          "accuracy_impact": -0.0424107142857143,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.12290736607142858,
+          "valid_accuracy": 0.9602179836512261,
+          "valid_prediction_rate": 0.12799944196428573,
+          "accuracy_impact": -0.2788783482142857,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.26597377232142855,
+          "valid_accuracy": 0.9883359253499222,
+          "valid_prediction_rate": 0.2691127232142857,
+          "accuracy_impact": -0.13581194196428575,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.23681640625,
+          "valid_accuracy": 0.9872055830183193,
+          "valid_prediction_rate": 0.23988560267857142,
+          "accuracy_impact": -0.1649693080357143,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.19663783482142858,
+          "valid_accuracy": 0.990165086055497,
+          "valid_prediction_rate": 0.19859095982142858,
+          "accuracy_impact": -0.20514787946428573,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.23032924107142858,
+          "valid_accuracy": 0.9930827067669173,
+          "valid_prediction_rate": 0.23193359375,
+          "accuracy_impact": -0.17145647321428573,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.2537202380952381,
+          "valid_accuracy": 0.985371139606285,
+          "valid_prediction_rate": 0.2574869791666667,
+          "accuracy_impact": -0.14806547619047622,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.25093005952380953,
+          "valid_accuracy": 0.9837739288969918,
+          "valid_prediction_rate": 0.2550688244047619,
+          "accuracy_impact": -0.15085565476190477,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.22279575892857142,
+          "valid_accuracy": 0.9884464617289045,
+          "valid_prediction_rate": 0.22539992559523808,
+          "accuracy_impact": -0.17898995535714288,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.21391369047619047,
+          "valid_accuracy": 0.9803921568627451,
+          "valid_prediction_rate": 0.21819196428571427,
+          "accuracy_impact": -0.18787202380952384,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.20914713541666666,
+          "valid_accuracy": 0.9840280056886556,
+          "valid_prediction_rate": 0.21254185267857142,
+          "accuracy_impact": -0.19263857886904764,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.2615327380952381,
+          "valid_accuracy": 0.984938704028021,
+          "valid_prediction_rate": 0.26553199404761907,
+          "accuracy_impact": -0.14025297619047622,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.21884300595238096,
+          "valid_accuracy": 0.9735208936698386,
+          "valid_prediction_rate": 0.22479538690476192,
+          "accuracy_impact": -0.18294270833333334,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.20042782738095238,
+          "valid_accuracy": 0.956078083407276,
+          "valid_prediction_rate": 0.20963541666666666,
+          "accuracy_impact": -0.20135788690476192,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.4115513392857143,
+          "valid_accuracy": 0.9910414333706606,
+          "valid_prediction_rate": 0.4152715773809524,
+          "accuracy_impact": 0.009765625,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.34654017857142855,
+          "valid_accuracy": 0.9920127795527156,
+          "valid_prediction_rate": 0.34933035714285715,
+          "accuracy_impact": -0.055245535714285754,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.17559523809523808,
+          "valid_accuracy": 0.9905561385099685,
+          "valid_prediction_rate": 0.17726934523809523,
+          "accuracy_impact": -0.22619047619047622,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.19196428571428573,
+          "valid_accuracy": 0.9918308505526189,
+          "valid_prediction_rate": 0.19354538690476192,
+          "accuracy_impact": -0.20982142857142858,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.1617373511904762,
+          "valid_accuracy": 0.9891922639362912,
+          "valid_prediction_rate": 0.16350446428571427,
+          "accuracy_impact": -0.2400483630952381,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.17606026785714285,
+          "valid_accuracy": 0.9838877338877339,
+          "valid_prediction_rate": 0.17894345238095238,
+          "accuracy_impact": -0.22572544642857145,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.22405133928571427,
+          "valid_accuracy": 0.983265306122449,
+          "valid_prediction_rate": 0.22786458333333334,
+          "accuracy_impact": -0.17773437500000003,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.23753720238095238,
+          "valid_accuracy": 0.9861003861003861,
+          "valid_prediction_rate": 0.24088541666666666,
+          "accuracy_impact": -0.16424851190476192,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.17661830357142858,
+          "valid_accuracy": 0.9906103286384976,
+          "valid_prediction_rate": 0.17829241071428573,
+          "accuracy_impact": -0.22516741071428573,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.24209449404761904,
+          "valid_accuracy": 0.9811534112325669,
+          "valid_prediction_rate": 0.24674479166666666,
+          "accuracy_impact": -0.15969122023809526,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.23139880952380953,
+          "valid_accuracy": 0.9873015873015873,
+          "valid_prediction_rate": 0.234375,
+          "accuracy_impact": -0.17038690476190477,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.3119419642857143,
+          "valid_accuracy": 0.9792700729927007,
+          "valid_prediction_rate": 0.3185453869047619,
+          "accuracy_impact": -0.08984375,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.24386160714285715,
+          "valid_accuracy": 0.9849737039819685,
+          "valid_prediction_rate": 0.24758184523809523,
+          "accuracy_impact": -0.15792410714285715,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.2152157738095238,
+          "valid_accuracy": 0.9872013651877133,
+          "valid_prediction_rate": 0.21800595238095238,
+          "accuracy_impact": -0.1865699404761905,
+          "n_samples": 10752
+        }
+      }
+    },
+    "convnext_large_mlp": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.4935825892857143,
+          "valid_accuracy": 0.9685190254585272,
+          "valid_prediction_rate": 0.5096261160714286,
+          "accuracy_impact": -0.030412946428571397,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.24762834821428573,
+          "valid_accuracy": 0.9225571725571725,
+          "valid_prediction_rate": 0.26841517857142855,
+          "accuracy_impact": -0.2763671875,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.41922433035714285,
+          "valid_accuracy": 0.9681056701030928,
+          "valid_prediction_rate": 0.4330357142857143,
+          "accuracy_impact": -0.10477120535714285,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.38902064732142855,
+          "valid_accuracy": 0.9739783443939923,
+          "valid_prediction_rate": 0.3994140625,
+          "accuracy_impact": -0.13497488839285715,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.32003348214285715,
+          "valid_accuracy": 0.9828620394173093,
+          "valid_prediction_rate": 0.3256138392857143,
+          "accuracy_impact": -0.20396205357142855,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.380859375,
+          "valid_accuracy": 0.9814848103541255,
+          "valid_prediction_rate": 0.38804408482142855,
+          "accuracy_impact": -0.1431361607142857,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.39894903273809523,
+          "valid_accuracy": 0.9767733120801548,
+          "valid_prediction_rate": 0.4084356398809524,
+          "accuracy_impact": -0.12504650297619047,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.3716517857142857,
+          "valid_accuracy": 0.9596541786743515,
+          "valid_prediction_rate": 0.3872767857142857,
+          "accuracy_impact": -0.15234375,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.3792317708333333,
+          "valid_accuracy": 0.9710645391759943,
+          "valid_prediction_rate": 0.39053199404761907,
+          "accuracy_impact": -0.14476376488095238,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.3503999255952381,
+          "valid_accuracy": 0.9647887323943662,
+          "valid_prediction_rate": 0.36318824404761907,
+          "accuracy_impact": -0.17359561011904762,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.3547247023809524,
+          "valid_accuracy": 0.9694350892800406,
+          "valid_prediction_rate": 0.3659086681547619,
+          "accuracy_impact": -0.16927083333333331,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.39539155505952384,
+          "valid_accuracy": 0.9671823455807076,
+          "valid_prediction_rate": 0.40880766369047616,
+          "accuracy_impact": -0.12860398065476186,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.2736235119047619,
+          "valid_accuracy": 0.9248663942156554,
+          "valid_prediction_rate": 0.29585193452380953,
+          "accuracy_impact": -0.2503720238095238,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.26674107142857145,
+          "valid_accuracy": 0.9053030303030303,
+          "valid_prediction_rate": 0.29464285714285715,
+          "accuracy_impact": -0.25725446428571425,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.6078869047619048,
+          "valid_accuracy": 0.9951278928136419,
+          "valid_prediction_rate": 0.6108630952380952,
+          "accuracy_impact": 0.08389136904761907,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.5372953869047619,
+          "valid_accuracy": 0.9934651762682717,
+          "valid_prediction_rate": 0.5408296130952381,
+          "accuracy_impact": 0.013299851190476164,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.3071986607142857,
+          "valid_accuracy": 0.9624125874125874,
+          "valid_prediction_rate": 0.31919642857142855,
+          "accuracy_impact": -0.216796875,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.3801153273809524,
+          "valid_accuracy": 0.9742550655542312,
+          "valid_prediction_rate": 0.39015997023809523,
+          "accuracy_impact": -0.14388020833333331,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.2845982142857143,
+          "valid_accuracy": 0.9622641509433962,
+          "valid_prediction_rate": 0.29575892857142855,
+          "accuracy_impact": -0.2393973214285714,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.3430059523809524,
+          "valid_accuracy": 0.9756613756613757,
+          "valid_prediction_rate": 0.3515625,
+          "accuracy_impact": -0.18098958333333331,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.33286830357142855,
+          "valid_accuracy": 0.9792065663474692,
+          "valid_prediction_rate": 0.33993675595238093,
+          "accuracy_impact": -0.19112723214285715,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.3650483630952381,
+          "valid_accuracy": 0.9734623015873016,
+          "valid_prediction_rate": 0.375,
+          "accuracy_impact": -0.15894717261904762,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.3240327380952381,
+          "valid_accuracy": 0.9650969529085872,
+          "valid_prediction_rate": 0.3357514880952381,
+          "accuracy_impact": -0.19996279761904762,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.36886160714285715,
+          "valid_accuracy": 0.9628550619082301,
+          "valid_prediction_rate": 0.38309151785714285,
+          "accuracy_impact": -0.15513392857142855,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.41889880952380953,
+          "valid_accuracy": 0.9700624596166272,
+          "valid_prediction_rate": 0.4318266369047619,
+          "accuracy_impact": -0.10509672619047616,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.38625372023809523,
+          "valid_accuracy": 0.9696474433808079,
+          "valid_prediction_rate": 0.39834449404761907,
+          "accuracy_impact": -0.13774181547619047,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.39620535714285715,
+          "valid_accuracy": 0.9607577807848444,
+          "valid_prediction_rate": 0.41238839285714285,
+          "accuracy_impact": -0.12779017857142855,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.40829613095238093,
+          "valid_accuracy": 0.9663218137794409,
+          "valid_prediction_rate": 0.4225260416666667,
+          "accuracy_impact": -0.11569940476190477,
+          "n_samples": 10752
+        }
+      }
+    },
+    "vit_base_patch16_224": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.26102120535714285,
+          "valid_accuracy": 0.967425025853154,
+          "valid_prediction_rate": 0.26981026785714285,
+          "accuracy_impact": -0.0347377232142857,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.04638671875,
+          "valid_accuracy": 0.8843085106382979,
+          "valid_prediction_rate": 0.052455357142857144,
+          "accuracy_impact": -0.24937220982142855,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.21316964285714285,
+          "valid_accuracy": 0.9717011128775834,
+          "valid_prediction_rate": 0.21937779017857142,
+          "accuracy_impact": -0.0825892857142857,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.18038504464285715,
+          "valid_accuracy": 0.9631284916201117,
+          "valid_prediction_rate": 0.18729073660714285,
+          "accuracy_impact": -0.1153738839285714,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.15910993303571427,
+          "valid_accuracy": 0.9575986565910999,
+          "valid_prediction_rate": 0.16615513392857142,
+          "accuracy_impact": -0.13664899553571427,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.17940848214285715,
+          "valid_accuracy": 0.9735049205147616,
+          "valid_prediction_rate": 0.18429129464285715,
+          "accuracy_impact": -0.1163504464285714,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.20270647321428573,
+          "valid_accuracy": 0.958654057620409,
+          "valid_prediction_rate": 0.21144903273809523,
+          "accuracy_impact": -0.09305245535714282,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.17243303571428573,
+          "valid_accuracy": 0.9631168831168831,
+          "valid_prediction_rate": 0.17903645833333334,
+          "accuracy_impact": -0.12332589285714282,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.16875930059523808,
+          "valid_accuracy": 0.9638778220451527,
+          "valid_prediction_rate": 0.17508370535714285,
+          "accuracy_impact": -0.12699962797619047,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.14908854166666666,
+          "valid_accuracy": 0.9679951690821256,
+          "valid_prediction_rate": 0.15401785714285715,
+          "accuracy_impact": -0.1466703869047619,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.13897414434523808,
+          "valid_accuracy": 0.9572389493914157,
+          "valid_prediction_rate": 0.14518229166666666,
+          "accuracy_impact": -0.15678478422619047,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.20751953125,
+          "valid_accuracy": 0.9669555796316359,
+          "valid_prediction_rate": 0.21461123511904762,
+          "accuracy_impact": -0.08823939732142855,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.13811383928571427,
+          "valid_accuracy": 0.9010922330097088,
+          "valid_prediction_rate": 0.15327380952380953,
+          "accuracy_impact": -0.15764508928571427,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.1253720238095238,
+          "valid_accuracy": 0.9361111111111111,
+          "valid_prediction_rate": 0.13392857142857142,
+          "accuracy_impact": -0.17038690476190474,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.3092447916666667,
+          "valid_accuracy": 0.979381443298969,
+          "valid_prediction_rate": 0.3157552083333333,
+          "accuracy_impact": 0.013485863095238138,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.25353422619047616,
+          "valid_accuracy": 0.9844709281328999,
+          "valid_prediction_rate": 0.25753348214285715,
+          "accuracy_impact": -0.042224702380952384,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.13885788690476192,
+          "valid_accuracy": 0.9739073711676451,
+          "valid_prediction_rate": 0.142578125,
+          "accuracy_impact": -0.15690104166666663,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.16062127976190477,
+          "valid_accuracy": 0.9637276785714286,
+          "valid_prediction_rate": 0.16666666666666666,
+          "accuracy_impact": -0.13513764880952378,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.12751116071428573,
+          "valid_accuracy": 0.9682203389830508,
+          "valid_prediction_rate": 0.13169642857142858,
+          "accuracy_impact": -0.16824776785714282,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.13271949404761904,
+          "valid_accuracy": 0.9635381498987171,
+          "valid_prediction_rate": 0.13774181547619047,
+          "accuracy_impact": -0.1630394345238095,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.18033854166666666,
+          "valid_accuracy": 0.9637176938369781,
+          "valid_prediction_rate": 0.1871279761904762,
+          "accuracy_impact": -0.11542038690476189,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.18052455357142858,
+          "valid_accuracy": 0.9519372241294752,
+          "valid_prediction_rate": 0.18963913690476192,
+          "accuracy_impact": -0.11523437499999997,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.10500372023809523,
+          "valid_accuracy": 0.9447698744769875,
+          "valid_prediction_rate": 0.1111421130952381,
+          "accuracy_impact": -0.19075520833333331,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.11635044642857142,
+          "valid_accuracy": 0.9600920951650038,
+          "valid_prediction_rate": 0.12118675595238096,
+          "accuracy_impact": -0.17940848214285712,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.25390625,
+          "valid_accuracy": 0.9753483386923901,
+          "valid_prediction_rate": 0.2603236607142857,
+          "accuracy_impact": -0.04185267857142855,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.16694568452380953,
+          "valid_accuracy": 0.9782016348773842,
+          "valid_prediction_rate": 0.17066592261904762,
+          "accuracy_impact": -0.128813244047619,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.21019345238095238,
+          "valid_accuracy": 0.9804772234273319,
+          "valid_prediction_rate": 0.21437872023809523,
+          "accuracy_impact": -0.08556547619047616,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.17271205357142858,
+          "valid_accuracy": 0.9350453172205438,
+          "valid_prediction_rate": 0.18470982142857142,
+          "accuracy_impact": -0.12304687499999997,
+          "n_samples": 10752
+        }
+      }
+    },
+    "vit_large_patch16_224": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.35518973214285715,
+          "valid_accuracy": 0.9839613526570048,
+          "valid_prediction_rate": 0.36097935267857145,
+          "accuracy_impact": -0.0611049107142857,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.09905133928571429,
+          "valid_accuracy": 0.8930817610062893,
+          "valid_prediction_rate": 0.11090959821428571,
+          "accuracy_impact": -0.31724330357142855,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.31556919642857145,
+          "valid_accuracy": 0.9877729257641922,
+          "valid_prediction_rate": 0.31947544642857145,
+          "accuracy_impact": -0.1007254464285714,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.27762276785714285,
+          "valid_accuracy": 0.9861248761149654,
+          "valid_prediction_rate": 0.28152901785714285,
+          "accuracy_impact": -0.138671875,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.21421595982142858,
+          "valid_accuracy": 0.9846104520679705,
+          "valid_prediction_rate": 0.21756417410714285,
+          "accuracy_impact": -0.20207868303571427,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.2700892857142857,
+          "valid_accuracy": 0.9827411167512691,
+          "valid_prediction_rate": 0.2748325892857143,
+          "accuracy_impact": -0.14620535714285715,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.30017671130952384,
+          "valid_accuracy": 0.9774379164142943,
+          "valid_prediction_rate": 0.30710565476190477,
+          "accuracy_impact": -0.11611793154761901,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.2561848958333333,
+          "valid_accuracy": 0.9783342212750844,
+          "valid_prediction_rate": 0.26185825892857145,
+          "accuracy_impact": -0.16010974702380953,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.22037760416666666,
+          "valid_accuracy": 0.9815658657829329,
+          "valid_prediction_rate": 0.22451636904761904,
+          "accuracy_impact": -0.1959170386904762,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.24441964285714285,
+          "valid_accuracy": 0.9774967453970616,
+          "valid_prediction_rate": 0.25004650297619047,
+          "accuracy_impact": -0.171875,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.22942243303571427,
+          "valid_accuracy": 0.9789661672784998,
+          "valid_prediction_rate": 0.23435174851190477,
+          "accuracy_impact": -0.18687220982142858,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.28115699404761907,
+          "valid_accuracy": 0.9782380066337675,
+          "valid_prediction_rate": 0.2874116443452381,
+          "accuracy_impact": -0.13513764880952378,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.19503348214285715,
+          "valid_accuracy": 0.9575342465753425,
+          "valid_prediction_rate": 0.20368303571428573,
+          "accuracy_impact": -0.2212611607142857,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.18359375,
+          "valid_accuracy": 0.9364326375711575,
+          "valid_prediction_rate": 0.19605654761904762,
+          "accuracy_impact": -0.23270089285714285,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.49562872023809523,
+          "valid_accuracy": 0.9892333395210693,
+          "valid_prediction_rate": 0.5010230654761905,
+          "accuracy_impact": 0.07933407738095238,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.40866815476190477,
+          "valid_accuracy": 0.9920975389478438,
+          "valid_prediction_rate": 0.4119233630952381,
+          "accuracy_impact": -0.007626488095238082,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.18154761904761904,
+          "valid_accuracy": 0.9721115537848606,
+          "valid_prediction_rate": 0.18675595238095238,
+          "accuracy_impact": -0.2347470238095238,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.21930803571428573,
+          "valid_accuracy": 0.9820907955018742,
+          "valid_prediction_rate": 0.22330729166666666,
+          "accuracy_impact": -0.19698660714285712,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.16462053571428573,
+          "valid_accuracy": 0.9833333333333333,
+          "valid_prediction_rate": 0.16741071428571427,
+          "accuracy_impact": -0.2516741071428571,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.19391741071428573,
+          "valid_accuracy": 0.9848842701936703,
+          "valid_prediction_rate": 0.1968936011904762,
+          "accuracy_impact": -0.22237723214285712,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.23846726190476192,
+          "valid_accuracy": 0.9697428139183056,
+          "valid_prediction_rate": 0.24590773809523808,
+          "accuracy_impact": -0.17782738095238093,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.259765625,
+          "valid_accuracy": 0.9532423208191126,
+          "valid_prediction_rate": 0.27250744047619047,
+          "accuracy_impact": -0.15652901785714285,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.18768601190476192,
+          "valid_accuracy": 0.9834307992202729,
+          "valid_prediction_rate": 0.19084821428571427,
+          "accuracy_impact": -0.22860863095238093,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.20824032738095238,
+          "valid_accuracy": 0.9933451641526175,
+          "valid_prediction_rate": 0.20963541666666666,
+          "accuracy_impact": -0.20805431547619047,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.32970610119047616,
+          "valid_accuracy": 0.9888423988842399,
+          "valid_prediction_rate": 0.3334263392857143,
+          "accuracy_impact": -0.08658854166666669,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.26125372023809523,
+          "valid_accuracy": 0.9852683269028412,
+          "valid_prediction_rate": 0.26515997023809523,
+          "accuracy_impact": -0.15504092261904762,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.29715401785714285,
+          "valid_accuracy": 0.9800613496932515,
+          "valid_prediction_rate": 0.30319940476190477,
+          "accuracy_impact": -0.119140625,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.26004464285714285,
+          "valid_accuracy": 0.9762569832402235,
+          "valid_prediction_rate": 0.2663690476190476,
+          "accuracy_impact": -0.15625,
+          "n_samples": 10752
+        }
+      }
+    },
+    "swin_base_patch4_window7_224": {
+      "material": {
+        "Default": {
+          "overall_accuracy": 0.42257254464285715,
+          "valid_accuracy": 0.982166018158236,
+          "valid_prediction_rate": 0.4302455357142857,
+          "accuracy_impact": -0.0316685267857143,
+          "n_samples": 14336
+        },
+        "CheckerMaterial": {
+          "overall_accuracy": 0.11648995535714286,
+          "valid_accuracy": 0.9737609329446064,
+          "valid_prediction_rate": 0.11962890625,
+          "accuracy_impact": -0.3377511160714286,
+          "n_samples": 14336
+        },
+        "YellowCarPaint": {
+          "overall_accuracy": 0.33035714285714285,
+          "valid_accuracy": 0.9916247906197655,
+          "valid_prediction_rate": 0.33314732142857145,
+          "accuracy_impact": -0.1238839285714286,
+          "n_samples": 14336
+        },
+        "NeonGreen": {
+          "overall_accuracy": 0.294921875,
+          "valid_accuracy": 0.9910923581809657,
+          "valid_prediction_rate": 0.29757254464285715,
+          "accuracy_impact": -0.15931919642857145,
+          "n_samples": 14336
+        },
+        "BrushedMetal": {
+          "overall_accuracy": 0.22991071428571427,
+          "valid_accuracy": 0.9933694996986137,
+          "valid_prediction_rate": 0.2314453125,
+          "accuracy_impact": -0.22433035714285718,
+          "n_samples": 14336
+        },
+        "White": {
+          "overall_accuracy": 0.3028041294642857,
+          "valid_accuracy": 0.9945017182130584,
+          "valid_prediction_rate": 0.30447823660714285,
+          "accuracy_impact": -0.15143694196428575,
+          "n_samples": 14336
+        }
+      },
+      "light_color": {
+        "(R=1.0,G=1.0,B=1.0,A=0.0)": {
+          "overall_accuracy": 0.29031808035714285,
+          "valid_accuracy": 0.9868795447360101,
+          "valid_prediction_rate": 0.2941778273809524,
+          "accuracy_impact": -0.1639229910714286,
+          "n_samples": 21504
+        },
+        "(R=1.0,G=0.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.2978515625,
+          "valid_accuracy": 0.985536236344053,
+          "valid_prediction_rate": 0.30222284226190477,
+          "accuracy_impact": -0.15638950892857145,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=1.0,B=0.0,A=1.0)": {
+          "overall_accuracy": 0.26255580357142855,
+          "valid_accuracy": 0.9943642127509686,
+          "valid_prediction_rate": 0.26404389880952384,
+          "accuracy_impact": -0.1916852678571429,
+          "n_samples": 21504
+        },
+        "(R=0.0,G=0.0,B=1.0,A=1.0)": {
+          "overall_accuracy": 0.28064546130952384,
+          "valid_accuracy": 0.9885339885339886,
+          "valid_prediction_rate": 0.28390066964285715,
+          "accuracy_impact": -0.17359561011904762,
+          "n_samples": 21504
+        }
+      },
+      "fog": {
+        "False": {
+          "overall_accuracy": 0.26413690476190477,
+          "valid_accuracy": 0.9903234242873332,
+          "valid_prediction_rate": 0.26671781994047616,
+          "accuracy_impact": -0.19010416666666669,
+          "n_samples": 43008
+        },
+        "True": {
+          "overall_accuracy": 0.30154854910714285,
+          "valid_accuracy": 0.9872116921671614,
+          "valid_prediction_rate": 0.30545479910714285,
+          "accuracy_impact": -0.1526925223214286,
+          "n_samples": 43008
+        }
+      },
+      "camera_position": {
+        "X=1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.21958705357142858,
+          "valid_accuracy": 0.9736082474226804,
+          "valid_prediction_rate": 0.22553943452380953,
+          "accuracy_impact": -0.23465401785714288,
+          "n_samples": 10752
+        },
+        "X=-1.000 Y=0.000 Z=0.200": {
+          "overall_accuracy": 0.20433407738095238,
+          "valid_accuracy": 0.9585514834205934,
+          "valid_prediction_rate": 0.21316964285714285,
+          "accuracy_impact": -0.24990699404761907,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=1.000 Z=0.200": {
+          "overall_accuracy": 0.4868861607142857,
+          "valid_accuracy": 0.9988551803091014,
+          "valid_prediction_rate": 0.48744419642857145,
+          "accuracy_impact": 0.032645089285714246,
+          "n_samples": 10752
+        },
+        "X=0.000 Y=-1.000 Z=0.200": {
+          "overall_accuracy": 0.40708705357142855,
+          "valid_accuracy": 0.9979480164158687,
+          "valid_prediction_rate": 0.40792410714285715,
+          "accuracy_impact": -0.047154017857142905,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.22721354166666666,
+          "valid_accuracy": 0.9870707070707071,
+          "valid_prediction_rate": 0.23018973214285715,
+          "accuracy_impact": -0.2270275297619048,
+          "n_samples": 10752
+        },
+        "X=0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.2747395833333333,
+          "valid_accuracy": 0.9916079221215173,
+          "valid_prediction_rate": 0.27706473214285715,
+          "accuracy_impact": -0.17950148809523814,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=-0.500 Z=1.000": {
+          "overall_accuracy": 0.22247023809523808,
+          "valid_accuracy": 0.989247311827957,
+          "valid_prediction_rate": 0.22488839285714285,
+          "accuracy_impact": -0.23177083333333337,
+          "n_samples": 10752
+        },
+        "X=-0.500 Y=0.500 Z=1.000": {
+          "overall_accuracy": 0.22042410714285715,
+          "valid_accuracy": 0.9908026755852842,
+          "valid_prediction_rate": 0.22247023809523808,
+          "accuracy_impact": -0.2338169642857143,
+          "n_samples": 10752
+        }
+      },
+      "level": {
+        "UtopianCityFountain": {
+          "overall_accuracy": 0.23642113095238096,
+          "valid_accuracy": 0.9875679875679876,
+          "valid_prediction_rate": 0.23939732142857142,
+          "accuracy_impact": -0.2178199404761905,
+          "n_samples": 10752
+        },
+        "UtopianCity_Underpass": {
+          "overall_accuracy": 0.25744047619047616,
+          "valid_accuracy": 0.992470419505199,
+          "valid_prediction_rate": 0.25939360119047616,
+          "accuracy_impact": -0.1968005952380953,
+          "n_samples": 10752
+        },
+        "Quarry_Slate": {
+          "overall_accuracy": 0.21735491071428573,
+          "valid_accuracy": 0.9915146372507425,
+          "valid_prediction_rate": 0.21921502976190477,
+          "accuracy_impact": -0.23688616071428573,
+          "n_samples": 10752
+        },
+        "Demo_galery": {
+          "overall_accuracy": 0.33640252976190477,
+          "valid_accuracy": 0.9928630249794126,
+          "valid_prediction_rate": 0.33882068452380953,
+          "accuracy_impact": -0.11783854166666669,
+          "n_samples": 10752
+        },
+        "Sahara_Desert": {
+          "overall_accuracy": 0.28562127976190477,
+          "valid_accuracy": 0.987459807073955,
+          "valid_prediction_rate": 0.2892485119047619,
+          "accuracy_impact": -0.16861979166666669,
+          "n_samples": 10752
+        },
+        "Salt_Plane": {
+          "overall_accuracy": 0.35658482142857145,
+          "valid_accuracy": 0.9889089502192416,
+          "valid_prediction_rate": 0.3605840773809524,
+          "accuracy_impact": -0.09765625,
+          "n_samples": 10752
+        },
+        "Korean_Temple": {
+          "overall_accuracy": 0.2810639880952381,
+          "valid_accuracy": 0.9875816993464053,
+          "valid_prediction_rate": 0.2845982142857143,
+          "accuracy_impact": -0.17317708333333337,
+          "n_samples": 10752
+        },
+        "Desert_Dunes_Foliage": {
+          "overall_accuracy": 0.29185267857142855,
+          "valid_accuracy": 0.9812382739212008,
+          "valid_prediction_rate": 0.2974330357142857,
+          "accuracy_impact": -0.1623883928571429,
+          "n_samples": 10752
+        }
+      }
+    }
+  }
+}
