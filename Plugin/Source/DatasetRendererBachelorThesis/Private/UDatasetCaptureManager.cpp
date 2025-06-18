@@ -133,7 +133,7 @@ void UDatasetCaptureManager::SetUpFog()
     constexpr float        RadialDensity = 2.0f;
     constexpr float        HeightDensity = 2.0f;
     constexpr float        PhaseG = 0.15f;               // forward scatter
-    const FLinearColor     Albedo = { 0.75f, 0.75f, 0.85f }; // Other colors might work better
+    const FLinearColor     Albedo = { 0.75f, 0.75f, 0.85f }; 
 
     m_pLocalFog = CreateTempFogVolume(
         SpawnLoc,
@@ -555,7 +555,7 @@ void UDatasetCaptureManager::FinalizeCapture()
     }
     else
     {
-        UE_LOG(LogTemp, Log, TEXT("Capture Manager: No next level specified – staying put."));
+        UE_LOG(LogTemp, Log, TEXT("Capture Manager: No next level specified Â– staying put."));
     }
 
     RemoveFromRoot();   // allow GC once the manager finishes
