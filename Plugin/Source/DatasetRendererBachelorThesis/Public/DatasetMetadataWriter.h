@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright (c) 2025 Florian Gutbier
+// 
+// This source code is part of the UE5 Plugin developed for the Bachelor's thesis
+// at the University of Bamberg.
+// 
+// Released under the MIT License. See LICENSE file for details.
 
 #pragma once
 
