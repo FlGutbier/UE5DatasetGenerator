@@ -15,10 +15,10 @@ The goal is to **stress-test ImageNet-trained classifiers** under controlled cha
 ## Key features
 | Property | Value |
 |----------|-------|
-| Classes  | 7 ImageNet-1K categories<sup>†</sup> |
+| Classes  | 7 ImageNet-1K categories |
 | Images   | 86016 high-quality renders |
 | Resolution | 512 × 512 (PNG, lossless) |
-| Annotations | Per-image CSV: `class_id`, `background`, `material`, `camera_transform`, `light_rgb`, `fog`|
+| Annotations | Per-image CSV: `class_id`, `background`, `material`, `camera_transform`, `light_rgb`, `fog` |
 | Generation engine | Unreal Engine 5.4 with **Lumen**, HW ray tracing |
 | Variation axes | Viewpoint, lighting color/intensity, materials, fog (as background simplifier), scene clutter |
 | Intended use | OOD robustness evaluation, synthetic-to-real transfer, data-centric analysis |
